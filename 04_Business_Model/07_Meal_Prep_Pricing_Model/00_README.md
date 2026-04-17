@@ -1,7 +1,8 @@
-# 🍱 Meal Prep & Freezer Meals — Pricing Model (v2)
+# 🍱 Meal Prep & Freezer Meals — Pricing Model (v3)
 
-> **v2 (Abr 2026):** Cambio a **modelo de suscripción mensual** con descuento por
-> tamaño de hogar. Incluye roadmap de escalado desde 5 hasta 100 clientes.
+> **v3 (Abr 2026):** Precios recalibrados para ser **accesibles al poder adquisitivo
+> paraguayo**. Target: **Gs. 20.000-35.000 por comida** según tier y escala.
+> Introduce **3 tiers de producto** (Hogar 🏠 / Completo ⭐ / Premium 👑).
 >
 > **Propósito:** Operación recurrente de **meal prep + freezer meals** que cubre
 > las comidas del mes de cada hogar, con filosofía **whole-animal + bulk buying**,
@@ -21,17 +22,23 @@
 6. **[06_Bulk_Sourcing_Playbook.md](./06_Bulk_Sourcing_Playbook.md)** — Dónde y cómo comprar
 7. **[07_P_and_L_Mensual.md](./07_P_and_L_Mensual.md)** — Estado de resultados mensual
 
-### Modelo v2 — Suscripción Mensual + Escalado
+### Modelo v3 — Suscripción Accesible + Escalado
 
-8. **[08_Subscription_Plans.md](./08_Subscription_Plans.md)** ⭐ — Planes mensuales con descuento por tamaño de hogar
-9. **[09_Escalado_Roadmap.md](./09_Escalado_Roadmap.md)** — Matriz de 5 → 100 clientes (equipo, cocina, precios)
-10. **[10_Escalado_Detalle.md](./10_Escalado_Detalle.md)** — Unit economics detallado por etapa (10/20/40/60/100)
+8. **[08_Subscription_Plans.md](./08_Subscription_Plans.md)** ⭐ — Planes mensuales + 3 tiers + descuentos por hogar (v3)
+9. **[09_Escalado_Roadmap.md](./09_Escalado_Roadmap.md)** — Matriz de 5 → 100 clientes
+10. **[10_Escalado_Detalle.md](./10_Escalado_Detalle.md)** — Unit economics por etapa
+11. **[11_Precios_Accesibles_v3.md](./11_Precios_Accesibles_v3.md)** 🆕 — Matriz tiers × escalas, por qué el precio baja con volumen
+
+### Cuestionarios de Contratación
+
+- **[01_Admin_Hiring/01_Operaciones_Cocina/02_Cuestionario_Chef.md](../../01_Admin_Hiring/01_Operaciones_Cocina/02_Cuestionario_Chef.md)** 📋 — Texto para mandar al Chef candidato
+- **[01_Admin_Hiring/02_Logistica_y_Compras/03_Cuestionario_Comprador.md](../../01_Admin_Hiring/02_Logistica_y_Compras/03_Cuestionario_Comprador.md)** 📋 — Texto para mandar al Comprador + Auto candidato
 
 ---
 
-## 🎯 Modelo v2 — Suscripción Mensual
+## 🎯 Modelo v3 — Suscripción Accesible
 
-### 4 Planes Base
+### 4 Planes Base (cuántas comidas al mes)
 
 | Plan | Comidas/mes/persona | Cobertura |
 |---|---|---|
@@ -40,14 +47,21 @@
 | **Plan 60 "Completo"** ⭐ | 60 | Almuerzo+cena todos los días |
 | Plan 90 "Total" | 90 | Desayuno+almuerzo+cena todos los días |
 
-### Precios Base (escala actual, 5-10 clientes)
+### 3 Tiers de Producto
 
-| Plan | Precio/persona/mes | Gs./comida efectivo |
-|---|---|---|
-| Plan 20 | 1.400.000 | 70.000 |
-| Plan 40 | 2.600.000 | 65.000 |
-| Plan 60 ⭐ | 3.600.000 | 60.000 |
-| Plan 90 | 5.000.000 | ~55.600 |
+| Tier | Perfil | Proteína/comida | Disponible en |
+|---|---|---|---|
+| **Hogar** 🏠 | Accesible, rotación simple | 120g | 20+ clientes |
+| **Completo** ⭐ | Balanceado, full variedad | 150g | Siempre |
+| **Premium** 👑 | Whole-animal, Casa Ancla | 180g | Siempre |
+
+### Matriz de Precio por Comida (Gs.)
+
+| Escala | Hogar 🏠 | Completo ⭐ | Premium 👑 |
+|---|---|---|---|
+| 5-10 clientes (hoy) | — | **40.000** | **55.000** |
+| 20-40 clientes | 28.000 | 32.000 | 45.000 |
+| 60-100 clientes | 22.000 | 28.000 | 38.000 |
 
 ### Descuento por Tamaño de Hogar
 
@@ -78,16 +92,19 @@
 
 ## 🏠 Clientes Actuales (5 Hogares, 7 Personas)
 
-| ID | Hogar | Personas | Plan sugerido v2 | Precio mensual |
+| ID | Hogar | Personas | Plan sugerido v3 | Precio mensual |
 |---|---|---|---|---|
-| 001 | Iván, Kiki, Ale | 3 | Plan 60 Completo (Casa Ancla) | **Gs. 9.180.000** |
-| 002 | Fran | 1 | Plan 40 Media Semana | **Gs. 2.600.000** |
-| 003 | Junior | 1 | Plan 60 Completo (opción Atleta) | **Gs. 3.600.000** |
-| 004 | Emilio y Lucia | 2 | Plan 60 Completo | **Gs. 6.480.000** |
-| | | **7** | | **Gs. 21.860.000/mes** |
+| 001 | Iván, Kiki, Ale | 3 | Plan 60 Premium (Casa Ancla) | **Gs. 8.415.000** |
+| 002 | Fran | 1 | Plan 40 Completo | **Gs. 1.600.000** |
+| 003 | Junior | 1 | Plan 60 Completo | **Gs. 2.400.000** |
+| 004 | Emilio y Lucia | 2 | Plan 60 Completo | **Gs. 4.320.000** |
+| | | **7** | | **Gs. 16.735.000/mes** |
 
-> Revenue potencial v2 con los 5 clientes actuales al plan sugerido: **~Gs. 21,9M/mes**
-> vs. Gs. 8,9M en el modelo v1 (por porción). Multiplicador **×2,4**.
+> Revenue potencial v3 con los 5 clientes actuales al plan sugerido: **~Gs. 16,7M/mes**.
+> Precio promedio ~Gs. 38.000/comida — 40% más accesible que v2 (Gs. 60.000/comida).
+>
+> **A medida que crezca la escala, el precio baja:** 20 clientes → ~Gs. 32.000/comida,
+> 60 clientes → ~Gs. 28.000/comida, 100 clientes → ~Gs. 22.000/comida (Plan Hogar).
 
 ---
 

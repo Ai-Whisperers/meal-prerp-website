@@ -1,51 +1,60 @@
 # 🏠 Plan Suscripción — Iván, Kiki y Ale (Casa Ancla)
 
-**Estado:** ACTIVO (v2 — Suscripción Mensual con Descuento Hogar)
+**Estado:** ACTIVO (v3 — Suscripción Mensual con Precios Accesibles)
 **Hogar:** 3 personas
 **Rol estratégico:** Casa Ancla (primer cliente, prioridad máxima de entrega)
 
 ---
 
-## Planes Disponibles
+## Planes Disponibles — Hogar 3 personas, descuento -15%
 
-Precios para **hogar de 3 personas** (incluye descuento -15%):
+Precios a **escala actual (5-10 clientes)**:
 
-| Plan | Comidas/mes (3 pers) | Precio mensual |
+| Plan | Completo ⭐ (3 pers) | Premium 👑 (3 pers, Casa Ancla) |
 |---|---|---|
-| Plan 20 "Weekend Chef" (3 pers) | 60 | **3.570.000** |
-| Plan 40 "Media Semana" (3 pers) | 120 | **6.630.000** |
-| **Plan 60 "Completo"** ⭐ (3 pers) | 180 | **9.180.000** |
-| Plan 90 "Total" (3 pers) | 270 | **12.750.000** |
+| Plan 20 "Weekend" | 2.040.000 | 2.805.000 |
+| Plan 40 "Media Semana" | 4.080.000 | 5.610.000 |
+| **Plan 60 "Completo"** ⭐ | **6.120.000** | **8.415.000** |
+| Plan 90 "Total" | 9.180.000 | 12.622.500 |
+
+> Plan Hogar 🏠 no disponible a escala actual (se activa a 20+ clientes).
 
 ---
 
 ## Plan Recomendado (Casa Ancla)
 
-**Plan 60 Completo** — Gs. 9.180.000/mes.
+**Plan 60 Tier Premium** — Gs. 8.415.000/mes.
 - 180 comidas/mes para los 3 (60 comidas cada uno)
 - Cubre almuerzo + cena todos los días del mes.
-- Desayunos los deciden ellos (opcional add-on).
+- Proteína 180g/comida, whole-animal, nose-to-tail.
 
 ### 🎁 Bonus Casa Ancla (incluidos sin cargo)
 
-Por ser hogar de 3+ personas en Plan 60 o superior:
+Por ser Tier Premium de 3+ personas:
 - **BARF Mascotas:** 6 kg/mes (valor retail ~120.000 Gs.)
 - **Caldo de Huesos Premium:** 4 frascos/mes (valor retail ~100.000 Gs.)
-- **Entrega prioritaria:** primer hogar del día cada ciclo
+- **Entrega prioritaria:** primer hogar del día
 - **Valor extra incluido: ~Gs. 220.000/mes**
+
+### Alternativa más accesible: Plan 60 Completo
+
+**Gs. 6.120.000/mes** (−Gs. 2.295.000 vs. Premium).
+- 150g proteína en lugar de 180g
+- Menos variedad de cortes nobles
+- BARF y caldos NO incluidos (pero se pueden agregar como add-ons)
 
 ---
 
-## Desglose de Gs. 9.180.000 (Plan 60, 3 pers, Casa Ancla)
+## Desglose de Gs. 8.415.000 (Plan 60 Premium Casa Ancla)
 
 | Componente | % | Gs. |
 |---|---|---|
-| 🥩 Ingredientes premium | 51,9% | 4.764.420 |
-| 👨‍🍳 Chef (sueldo + comisión) | 21,8% | 2.001.240 |
-| 🛒 Comprador (sueldo + auto + comisión) | 14,3% | 1.312.740 |
-| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 367.200 |
-| 🏦 Reserva empresa | 8,0% | 734.400 |
-| **TOTAL** | **100%** | **9.180.000** |
+| 🥩 Ingredientes premium (whole-animal) | 54,2% | 4.560.930 |
+| 👨‍🍳 Chef (sueldo + comisión) | 21,8% | 1.834.470 |
+| 🛒 Comprador (sueldo + auto + comisión) | 14,3% | 1.203.345 |
+| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 336.600 |
+| 🏦 Reserva empresa | 5,7% | 479.655 |
+| **TOTAL** | **100%** | **8.415.000** |
 
 ---
 
@@ -60,48 +69,39 @@ Por ser hogar de 3+ personas en Plan 60 o superior:
 
 ---
 
-## Comparativa con Modelo Anterior
+## Comparativa con Versiones Previas
 
-| Métrica | v1 (por porción) | v2 (suscripción) |
+| Modelo | Precio/mes | Precio/comida |
 |---|---|---|
-| Comidas cubiertas/mes | 60 | **180** (3×) |
-| Precio/mes | 3.816.000 | 9.180.000 |
-| Precio/comida efectivo | 63.600 | **51.000** |
-| BARF incluido | Sí | Sí |
-| Caldos incluidos | Sí (4) | Sí (4) |
-| Cocinar en casa | Sí (mucho) | **No (casi nada)** |
+| v1 (por porción, 60 meals) | 3.816.000 | 63.600 |
+| v2 (suscripción, premium flat) | 9.180.000 | 51.000 |
+| **v3 (Premium Casa Ancla, 180 meals)** | **8.415.000** | **~46.750** |
+| v3 Alternativa (Completo) | 6.120.000 | ~34.000 |
 
-**Valor agregado v2:** 120 comidas adicionales a precio/comida 20% menor, sin
-trabajo de cocina. El upgrade sube Gs. 5.4M/mes pero libera ~90 hrs/mes de cocina.
+v3 mantiene el posicionamiento premium de Iván pero reduce precio/comida ~8%
+respecto a v2. La **alternativa Completo baja 33%** manteniendo Iván como cliente estratégico a costo más accesible.
 
 ---
 
-## Menú Rotativo (Plan 60, 180 comidas/mes)
+## Roadmap de Bajada de Precio
 
-Mix por ciclo quincenal (90 comidas / ciclo):
+Si el negocio crece y Iván se mantiene como cliente:
 
-| Menú | Porciones/ciclo | Proteína |
+| Escala negocio | Plan 60 Premium (3 pers) | Ahorro vs. hoy |
 |---|---|---|
-| Guiso de cerdo con mandioca | 18 | Cerdo |
-| Pollo al horno con vegetales asados | 18 | Pollo |
-| Estofado de cordero con arroz | 12 | Cordero |
-| Albóndigas de cerdo en salsa tomate | 10 | Cerdo molido |
-| Pechuga pollo grillada + vegetales | 10 | Pollo |
-| Costillitas barbacoa | 8 | Cerdo |
-| Arroz con pollo tradicional | 8 | Pollo |
-| Guiso lento cordero | 6 | Cordero |
-| **Total** | **90** | |
-
-Se repite en segundo ciclo del mes. Rotación de recetas cada 2 meses para evitar fatiga.
+| Hoy (5 clientes) | 8.415.000 | — |
+| 20 clientes | 6.885.000 | -18% |
+| 60 clientes | 5.814.000 | -31% |
 
 ---
 
 ## Preferencias por Confirmar con Iván
 
-- [ ] Plan elegido (60 o 90)
-- [ ] Ale come lo mismo que los adultos o versión kids (menos picante, porciones chicas)
+- [ ] Plan elegido: 60 o 90 comidas
+- [ ] Tier elegido: **Premium Casa Ancla** (recomendado) o Completo
+- [ ] Ale: mismo menú que adultos o versión kids (menos picante, porciones chicas)
 - [ ] Alergias / intolerancias de los 3
 - [ ] Desayuno add-on sí/no
 - [ ] Lista de menús favoritos (priorizar)
 - [ ] Lista de menús a evitar
-- [ ] Integración con filosofía whole-animal (recibir cortes crudos adicionales para uso propio sí/no)
+- [ ] Integración whole-animal: recibir cortes crudos extra para uso propio sí/no
