@@ -62,6 +62,28 @@
 
 ---
 
+## 💚 Comparativa de Valor (hoy vs. nosotros)
+
+Estimación persona sola con trabajo estable, Plan 40 (5 días × almuerzo+cena):
+
+| Concepto | Hoy (estimado) | Con nosotros |
+|---|---|---|
+| Súper + carnicería | ~1.200.000 | 0 |
+| Delivery (rescate) | ~500.000 | 0 |
+| Comer afuera | ~200.000 | 0 |
+| Comida tirada + extras | ~100.000 | 0 |
+| **Plata real/mes** | **~2.000.000** | **1.600.000** |
+| Horas cocinando/comprando | ~35 hrs | ~1 hr |
+| Valor tiempo (a Gs. 25.000/hr) | 875.000 | 25.000 |
+| **COSTO TOTAL** | **~2.875.000** | **~1.625.000** |
+| **Ahorro con nosotros** | — | **~1.250.000/mes** |
+
+**Tiempo recuperado:** ~34 hrs/mes para trabajo, gym, hobbies, descanso.
+
+Ver análisis completo en `04_Business_Model/07_Meal_Prep_Pricing_Model/12_Comparativa_Valor_Cliente.md`.
+
+---
+
 ## Preferencias por Confirmar
 
 - [ ] Plan: 20/40/60/90

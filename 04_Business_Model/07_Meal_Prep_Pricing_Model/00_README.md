@@ -27,7 +27,12 @@
 8. **[08_Subscription_Plans.md](./08_Subscription_Plans.md)** ⭐ — Planes mensuales + 3 tiers + descuentos por hogar (v3)
 9. **[09_Escalado_Roadmap.md](./09_Escalado_Roadmap.md)** — Matriz de 5 → 100 clientes
 10. **[10_Escalado_Detalle.md](./10_Escalado_Detalle.md)** — Unit economics por etapa
-11. **[11_Precios_Accesibles_v3.md](./11_Precios_Accesibles_v3.md)** 🆕 — Matriz tiers × escalas, por qué el precio baja con volumen
+11. **[11_Precios_Accesibles_v3.md](./11_Precios_Accesibles_v3.md)** — Matriz tiers × escalas, por qué el precio baja con volumen
+12. **[12_Comparativa_Valor_Cliente.md](./12_Comparativa_Valor_Cliente.md)** 🆕 — ¿Es justo el precio? Ahorro de plata + tiempo vs. hacerlo uno mismo
+
+### Mensajes listos para el cliente
+
+- **[06_Marketing_and_Brand/Mensaje_Valor_Cliente_Template.md](../../06_Marketing_and_Brand/Mensaje_Valor_Cliente_Template.md)** 💬 — Texto corto + largo para WhatsApp, por plan y hogar
 
 ### Cuestionarios de Contratación
 

@@ -63,6 +63,29 @@ Precios para hogar de 2 personas (con descuento -10% ya aplicado):
 
 ---
 
+## 💚 Comparativa de Valor (hoy vs. nosotros)
+
+Estimación pareja trabajadora, Plan 60 (lunch+dinner diario, 2 pers):
+
+| Concepto | Hoy (estimado) | Con nosotros |
+|---|---|---|
+| Súper + carnicería + feria | ~3.200.000 | 0 |
+| Delivery + comer afuera | ~1.000.000 | 0 |
+| Comida tirada + impulsivas | ~300.000 | 0 |
+| Gas/luz extra | ~100.000 | 0 |
+| **Plata real/mes** | **~4.600.000** | **4.320.000** |
+| Horas cocinando/comprando | ~65 hrs | ~2 hrs |
+| Valor tiempo (a Gs. 25.000/hr) | 1.625.000 | 50.000 |
+| **COSTO TOTAL** | **~6.225.000** | **~4.370.000** |
+| **Ahorro con nosotros** | — | **~1.855.000/mes** |
+
+**Tiempo recuperado:** ~63 hrs/mes entre los dos — dos fines de semana completos
+liberados para ellos.
+
+Ver análisis completo en `04_Business_Model/07_Meal_Prep_Pricing_Model/12_Comparativa_Valor_Cliente.md`.
+
+---
+
 ## Preferencias por Confirmar
 
 - [ ] Plan: 20/40/60/90

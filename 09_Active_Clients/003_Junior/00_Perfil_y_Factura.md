@@ -73,6 +73,31 @@ Cada comida con +50g de proteína magra.
 
 ---
 
+## 💚 Comparativa de Valor (hoy vs. nosotros)
+
+Estimación persona sola activa (gym + trabajo), Plan 60 (lunch+dinner diario):
+
+| Concepto | Hoy (estimado) | Con nosotros |
+|---|---|---|
+| Súper + carnicería (proteína alta) | ~1.700.000 | 0 |
+| Suplementos proteína extra | ~250.000 | 0 (ya va en comida) |
+| Delivery fitness / marmitas | ~600.000 | 0 |
+| Comida tirada + extras | ~150.000 | 0 |
+| **Plata real/mes** | **~2.700.000** | **2.400.000** |
+| Horas cocinando/comprando | ~50 hrs | ~1 hr |
+| Valor tiempo (a Gs. 25.000/hr) | 1.250.000 | 25.000 |
+| **COSTO TOTAL** | **~3.950.000** | **~2.425.000** |
+| **Ahorro con nosotros** | — | **~1.525.000/mes** |
+
+**Tiempo recuperado:** ~49 hrs/mes que vuelven al gym, al trabajo, al descanso.
+
+**Valor único:** consistencia de macros (proteína exacta por comida), lo que solo
+cocinando pesado podía lograr.
+
+Ver análisis completo en `04_Business_Model/07_Meal_Prep_Pricing_Model/12_Comparativa_Valor_Cliente.md`.
+
+---
+
 ## Preferencias por Confirmar
 
 - [ ] Plan: 40/60/90

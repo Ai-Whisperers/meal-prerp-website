@@ -95,6 +95,33 @@ Si el negocio crece y Iván se mantiene como cliente:
 
 ---
 
+## 💚 Comparativa de Valor (hoy vs. nosotros)
+
+Estimación familia de 3 personas, estilo de vida Iván/Kiki/Ale:
+
+| Concepto | Hoy (estimado) | Con nosotros |
+|---|---|---|
+| Súper + carnicería + feria | ~4.700.000 | 0 |
+| Delivery + comer afuera | ~1.400.000 | 0 |
+| Comida tirada + impulsivas | ~500.000 | 0 |
+| Gas/luz extra cocinando | ~150.000 | 0 |
+| BARF mascotas (si aplica) | ~240.000 | 0 (incluido) |
+| Cortes premium (buscar frigorífico) | ~800.000 | 0 (incluido whole-animal) |
+| **Plata real/mes** | **~7.790.000** | **8.415.000** |
+| Horas cocinando/comprando | ~85 hrs | ~2 hrs |
+| Valor del tiempo (a Gs. 30.000/hr) | 2.550.000 | 60.000 |
+| **COSTO TOTAL (plata + tiempo)** | **~10.340.000** | **~8.475.000** |
+| **Ahorro con nosotros** | — | **~1.865.000/mes** |
+
+**Tiempo recuperado:** ~83 hrs/mes = casi 10 días laborales liberados.
+
+**Valor único del Premium para Iván:** acceso a whole-animal, nose-to-tail,
+BARF, caldos de 24 hrs — calidad que no se consigue comprando solo.
+
+Ver análisis completo en `04_Business_Model/07_Meal_Prep_Pricing_Model/12_Comparativa_Valor_Cliente.md`.
+
+---
+
 ## Preferencias por Confirmar con Iván
 
 - [ ] Plan elegido: 60 o 90 comidas
