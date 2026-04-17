@@ -1,77 +1,131 @@
-# 🍱 Meal Prep & Freezer Meals — Pricing Model v1
+# 🍱 Meal Prep & Freezer Meals — Pricing Model (v2)
 
-> **Propósito:** Transicionar el negocio de "compras + prep a pedido" a un servicio
-> recurrente de **meal prep + freezer meals** con 5 hogares clientes, operado por
-> un equipo de **2 personas** (1 Chef + 1 Comprador con auto), usando filosofía
-> **whole-animal + bulk buying** para maximizar margen y pagar un salario justo.
+> **v2 (Abr 2026):** Cambio a **modelo de suscripción mensual** con descuento por
+> tamaño de hogar. Incluye roadmap de escalado desde 5 hasta 100 clientes.
+>
+> **Propósito:** Operación recurrente de **meal prep + freezer meals** que cubre
+> las comidas del mes de cada hogar, con filosofía **whole-animal + bulk buying**,
+> salarios dignos, y precio que **baja** a medida que el negocio escala.
 
 ---
 
 ## 📚 Índice
 
-1. **[01_Operacion_y_Ciclo.md](./01_Operacion_y_Ciclo.md)** — Cómo funciona el ciclo quincenal (compra → carneo → prep → cocción → entrega).
-2. **[02_Costos_Unidad.md](./02_Costos_Unidad.md)** — Costo real de un ciclo completo: carnes, verduras, packaging, gas, luz.
-3. **[03_Salarios_y_Comisiones.md](./03_Salarios_y_Comisiones.md)** — Salario base por hora + comisión sobre margen, por rol. Salario digno en Paraguay 2026.
-4. **[04_Precios_Cliente.md](./04_Precios_Cliente.md)** — Precio final por comida, por cliente, con desglose 100% transparente.
-5. **[05_Yield_Animal_Entero.md](./05_Yield_Animal_Entero.md)** — Rendimiento real de cerdo/cordero/pollo entero. Qué es carne, qué es BARF, qué es caldo.
-6. **[06_Bulk_Sourcing_Playbook.md](./06_Bulk_Sourcing_Playbook.md)** — Dónde comprar, cuánto pedir, cómo negociar para bajar costo 30-50%.
-7. **[07_P_and_L_Mensual.md](./07_P_and_L_Mensual.md)** — Estado de resultados mensual consolidado (ingresos, costos, salarios, margen empresa).
+### Modelo Operativo Base (5 clientes actuales)
+
+1. **[01_Operacion_y_Ciclo.md](./01_Operacion_y_Ciclo.md)** — Cómo funciona el ciclo quincenal
+2. **[02_Costos_Unidad.md](./02_Costos_Unidad.md)** — Costo real de un ciclo completo
+3. **[03_Salarios_y_Comisiones.md](./03_Salarios_y_Comisiones.md)** — Salario base + comisión sobre margen
+4. **[04_Precios_Cliente.md](./04_Precios_Cliente.md)** — Precio base por comida + desglose transparente
+5. **[05_Yield_Animal_Entero.md](./05_Yield_Animal_Entero.md)** — Rendimiento real de whole-animal
+6. **[06_Bulk_Sourcing_Playbook.md](./06_Bulk_Sourcing_Playbook.md)** — Dónde y cómo comprar
+7. **[07_P_and_L_Mensual.md](./07_P_and_L_Mensual.md)** — Estado de resultados mensual
+
+### Modelo v2 — Suscripción Mensual + Escalado
+
+8. **[08_Subscription_Plans.md](./08_Subscription_Plans.md)** ⭐ — Planes mensuales con descuento por tamaño de hogar
+9. **[09_Escalado_Roadmap.md](./09_Escalado_Roadmap.md)** — Matriz de 5 → 100 clientes (equipo, cocina, precios)
+10. **[10_Escalado_Detalle.md](./10_Escalado_Detalle.md)** — Unit economics detallado por etapa (10/20/40/60/100)
 
 ---
 
-## 🎯 Decisiones de Diseño (Resumen Ejecutivo)
+## 🎯 Modelo v2 — Suscripción Mensual
 
-| Decisión | Valor | Justificación |
+### 4 Planes Base
+
+| Plan | Comidas/mes/persona | Cobertura |
 |---|---|---|
-| **Moneda** | Guaraní (PYG / Gs.) | Paraguay. Referencia USD: 1 USD ≈ 6.787 Gs. (Ene 2026) |
-| **Ciclo operativo** | Quincenal (cada 14 días) | Compra 1 animal entero + stock quincenal. 2 ciclos/mes. |
-| **Cantidad de comidas/ciclo** | **70 porciones** | 5 hogares, ~14 días de autonomía |
-| **Precio promedio/comida** | **Gs. 63.600** (~USD 9,37) | Premium artesanal, menor que restaurant, mayor que supermercado |
-| **Margen bruto empresa** | ~20% sobre costo total | Pagar salarios justos + reinversión (freezer, sellador, marketing) |
-| **% que va a salarios** | **~22%** del ingreso | Salario por hora + comisión sobre margen |
-| **% que va a ingredientes** | **~54%** del ingreso | Whole-animal + mayorista |
-| **Salario efectivo Chef** | ~Gs. 49.850/hora | Muy por encima del mínimo legal (~13.900/hr) |
-| **Salario efectivo Comprador** | ~Gs. 45.300/hora | Incluye uso del auto |
+| Plan 20 "Weekend Chef" | 20 | Fines de semana + 2 días |
+| Plan 40 "Media Semana" | 40 | Almuerzo+cena 5 días |
+| **Plan 60 "Completo"** ⭐ | 60 | Almuerzo+cena todos los días |
+| Plan 90 "Total" | 90 | Desayuno+almuerzo+cena todos los días |
+
+### Precios Base (escala actual, 5-10 clientes)
+
+| Plan | Precio/persona/mes | Gs./comida efectivo |
+|---|---|---|
+| Plan 20 | 1.400.000 | 70.000 |
+| Plan 40 | 2.600.000 | 65.000 |
+| Plan 60 ⭐ | 3.600.000 | 60.000 |
+| Plan 90 | 5.000.000 | ~55.600 |
+
+### Descuento por Tamaño de Hogar
+
+| Personas | Descuento |
+|---|---|
+| 1 | 0% |
+| 2 | -10% |
+| 3 | -15% |
+| 4 | -18% |
+| 5+ | -20% |
 
 ---
 
-## 👥 Equipo
+## 🚀 Roadmap de Escalado (Resumen)
+
+| Etapa | Clientes | Revenue/mes | Precio/comida | Equipo | Cocina | Timing |
+|---|---|---|---|---|---|---|
+| Actual | 5 | ~24M | 60.000 | 2 (Chef + Comprador) | Casa | Hoy |
+| Etapa 1 | 10 | ~53M | 55.000 | 4 | Casa+ | Mes 3-5 |
+| Etapa 2 | 20 | ~100M | 52.000 | 6 | Alquilada 50 m² | Mes 6-9 |
+| Etapa 3 | 40 | ~184M | 48.000 | 11 | Comercial 80 m² | Mes 10-15 |
+| Etapa 4 | 60 | ~259M | 45.000 | 17 | Comercial 120 m² | Mes 16-24 |
+| Etapa 5 | 100 | ~384M | 40.000 | 28 | Industrial 200 m² | Año 2-3 |
+
+**A escala 100 clientes el modelo requiere rediseño** (línea premium + línea volumen, o subir precio promedio a Gs. 46.000). Ver `10_Escalado_Detalle.md`.
+
+---
+
+## 🏠 Clientes Actuales (5 Hogares, 7 Personas)
+
+| ID | Hogar | Personas | Plan sugerido v2 | Precio mensual |
+|---|---|---|---|---|
+| 001 | Iván, Kiki, Ale | 3 | Plan 60 Completo (Casa Ancla) | **Gs. 9.180.000** |
+| 002 | Fran | 1 | Plan 40 Media Semana | **Gs. 2.600.000** |
+| 003 | Junior | 1 | Plan 60 Completo (opción Atleta) | **Gs. 3.600.000** |
+| 004 | Emilio y Lucia | 2 | Plan 60 Completo | **Gs. 6.480.000** |
+| | | **7** | | **Gs. 21.860.000/mes** |
+
+> Revenue potencial v2 con los 5 clientes actuales al plan sugerido: **~Gs. 21,9M/mes**
+> vs. Gs. 8,9M en el modelo v1 (por porción). Multiplicador **×2,4**.
+
+---
+
+## 💡 Filosofía de Pricing (sigue vigente)
+
+1. **Transparencia total:** cada cliente ve dónde va cada guaraní (ingredientes / chef / comprador / overhead / reserva).
+2. **Salario justo primero:** chef y comprador cobran sueldo digno por hora **antes** que el margen del negocio.
+3. **Comisión como incentivo:** 70% del margen se reparte entre los 2 socios operativos; 30% queda como reserva/reinversión.
+4. **Whole-animal como ventaja:** ahorro de 30-50% vs. retail cortes sueltos → mitad al cliente, mitad al equipo.
+5. **El precio baja con escala:** eficiencia se comparte (no se embolsa).
+
+---
+
+## 👥 Equipo Actual (Escala 5)
 
 | Rol | Persona | Horas/ciclo | Responsabilidad |
 |---|---|---|---|
-| **Chef** | 1 persona | ~20 hrs | Carneo (despostar animal entero), mise en place, cocción, envasado al vacío, etiquetado, control de calidad |
-| **Comprador + Auto** | 1 persona | ~11 hrs | Runs a Mercado de Abasto + Frigorífico, selección/negociación, logística en frío, entrega a domicilio a los 4 hogares |
+| Chef | 1 | ~20 hrs | Carneo, mise en place, cocción, envasado |
+| Comprador + Auto | 1 | ~11 hrs | Compras bulk, logística, delivery |
 
-Ambos son **socios operativos**. Cobran sueldo por hora + comisión sobre el margen neto del ciclo.
-
----
-
-## 🏠 Clientes (5 Hogares, 8 Personas)
-
-| ID | Hogar | Personas | Porciones/Ciclo | Notas |
-|---|---|---|---|---|
-| 001 | **Iván, Kiki, Ale** | 3 | 30 | Casa ancla. Whole-animal, nose-to-tail, BARF para mascotas incluido |
-| 002 | **Fran** | 1 | 10 | Solo. Alta rotación, proteína magra |
-| 003 | **Junior** | 1 | 10 | Solo. Volumen alto, calorías, gimnasio |
-| 004 | **Emilio y Lucia** | 2 | 20 | Pareja. Balance proteína/vegetales |
-| — | — | **7** | **70** | **Total por ciclo quincenal** |
-
----
-
-## 💡 Filosofía de Pricing
-
-1. **Transparencia total:** Cada cliente ve el desglose — cuánto es ingrediente, cuánto labor, cuánto vehículo, cuánto margen empresa.
-2. **Pro-rata por porción:** Todos los costos compartidos (animal entero, viaje al mercado, gas de cocina) se dividen por las 70 porciones. El cliente paga solo lo suyo.
-3. **Salario justo primero:** Salario digno garantizado por hora para Chef y Comprador, **antes** de calcular el margen del negocio.
-4. **Comisión como incentivo:** 70% del margen neto se reparte entre los 2 socios operativos. 30% queda como reserva/reinversión del negocio.
-5. **Whole-animal como ventaja competitiva:** Comprar un cerdo entero a 25.000 Gs/kg vs. cortes premium a 45.000 Gs/kg genera ~40% de ahorro. Ese ahorro se reparte: mitad al cliente (precio más accesible), mitad a salarios.
+Ver `03_Salarios_y_Comisiones.md` para estructura salarial actual y `10_Escalado_Detalle.md` para cómo evoluciona el equipo en cada etapa.
 
 ---
 
 ## 🔗 Referencias Cruzadas
 
 - Estructura de servicio original: `04_Business_Model/Service_Contract_and_Payment.md`
-- Rentabilidad del núcleo (20 clientes): `04_Business_Model/01_Core_Business/02_Rentabilidad_Nucleo.md`
 - Precios mayoristas: `02_Shopping_Guide/Referencia_Precios_Mayorista.md`
 - Compra de animales enteros: `02_Shopping_Guide/Compra_Animales_Enteros.md`
 - Cadena de frío: `08_Logistics_and_Packaging/02_Protocolo_Cadena_Frio.md`
+- Perfiles de cliente: `09_Active_Clients/`
+
+---
+
+## 📍 Siguientes Pasos
+
+1. **Confirmar planes elegidos** con cada cliente (ver `09_Active_Clients/*/00_Perfil_y_Factura.md`).
+2. **Correr 1 ciclo piloto** con los 5 clientes en v2.
+3. **Medir yield real** vs. proyectado (objetivo ≥95%).
+4. **Contratar 1er Ayudante** antes de llegar a 8 clientes (evita cuello de botella).
+5. **Buscar cocina alquilada** al llegar a 15 clientes (3 meses antes de saturar casa).

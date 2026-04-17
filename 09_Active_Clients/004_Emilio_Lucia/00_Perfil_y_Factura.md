@@ -1,62 +1,59 @@
 # 🧑🧑 Cliente 004 — Emilio y Lucia
 
-**Estado:** ACTIVO (v1 Meal Prep Model)
-**Servicio:** Meal Prep Quincenal (Freezer Meals)
+**Estado:** ACTIVO (v2 — Suscripción Mensual)
+**Hogar:** 2 personas (pareja)
 
 ---
 
-## Perfil
+## Planes Disponibles
 
-- **Hogar:** 2 personas (pareja)
-- **Porciones/quincena:** 20 (10 × 2 personas)
-- **Porciones/mes:** 40 (2 ciclos)
-- **Preferencias por confirmar:**
-  - [ ] Alergias / intolerancias de cada uno
-  - [ ] Proteínas favoritas por persona
-  - [ ] Porcentaje almuerzo / cena (afecta caloría del menú)
-  - [ ] Variación de menús (misma comida ambos vs. menús separados)
+Precios para **hogar de 2 personas** (incluye descuento -10%):
 
----
-
-## Factura Quincenal
-
-| Concepto | Cantidad | Precio unitario | Subtotal |
-|---|---|---|---|
-| Porción meal prep | 20 | 63.600 | **1.272.000** |
-| **TOTAL QUINCENAL** | | | **1.272.000 Gs.** |
-| **MENSUAL (2 ciclos)** | | | **2.544.000 Gs.** |
-
----
-
-## Desglose — A Dónde Va Cada Guaraní
-
-| Componente | % | Gs. de los 1.272.000 |
+| Plan | Comidas/mes (2 pers) | Precio mensual |
 |---|---|---|
-| 🥩 Ingredientes premium | 53,7% | 683.064 |
-| 👨‍🍳 Chef (sueldo + comisión) | 22,4% | 284.928 |
-| 🛒 Comprador (sueldo + auto + comisión) | 15,2% | 193.344 |
-| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 50.880 |
-| 🏦 Reserva empresa | 4,7% | 59.784 |
-| **TOTAL** | **100%** | **1.272.000** |
+| Plan 20 "Weekend Chef" (2 pers) | 40 | **2.520.000** |
+| Plan 40 "Media Semana" (2 pers) | 80 | **4.680.000** |
+| **Plan 60 "Completo"** ⭐ (2 pers) | 120 | **6.480.000** |
+| Plan 90 "Total" (2 pers) | 180 | **9.000.000** |
 
 ---
 
-## Opción de Upgrade Disponible
+## Plan Sugerido
 
-A partir de 20 porciones aplica **"Plan Dúo"** con precio 60.000/porción:
-
-| Concepto | Cantidad | Precio unitario | Subtotal |
-|---|---|---|---|
-| Porción meal prep (plan Dúo) | 20 | 60.000 | **1.200.000** |
-| **Ahorro quincenal** | | | **72.000 Gs.** |
-
-Requiere compromiso de 3 ciclos mínimos (Casa Ancla-lite).
+**Plan 60 Completo** — Gs. 6.480.000/mes. Cubre almuerzo + cena todos los días del mes para los dos (120 comidas). Desayunos los cocina cada uno.
 
 ---
 
-## Logística
+## Desglose de Gs. 6.480.000 (Plan 60 Completo, 2 pers)
 
-- **Entrega:** quincenal, día 5 del ciclo
-- **Horario preferido:** a coordinar
-- **Forma de pago:** transferencia / efectivo / QR
-- **Cierre de pago:** dentro de 48 hrs de la entrega
+| Componente | % | Gs. |
+|---|---|---|
+| 🥩 Ingredientes premium | 51,9% | 3.363.120 |
+| 👨‍🍳 Chef (sueldo + comisión) | 21,8% | 1.412.640 |
+| 🛒 Comprador (sueldo + auto + comisión) | 14,3% | 926.640 |
+| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 259.200 |
+| 🏦 Reserva empresa | 8,0% | 518.400 |
+| **TOTAL** | **100%** | **6.480.000** |
+
+---
+
+## Add-Ons Disponibles
+
+| Add-on | Precio/mes |
+|---|---|
+| BARF Mascotas | 120.000 |
+| Caldo Huesos Premium (4 frascos) | 100.000 |
+| Postres artesanales (4 un) | 200.000 |
+| Fermentados (2 frascos) | 80.000 |
+| Desayuno upgrade (2 pers) | 700.000 |
+
+---
+
+## Preferencias por Confirmar
+
+- [ ] Plan elegido (20/40/60/90)
+- [ ] Alergias e intolerancias de cada uno
+- [ ] Proteínas favoritas por persona
+- [ ] Mismos menús para ambos o diferenciados
+- [ ] Porcentaje almuerzo vs. cena (afecta cantidad)
+- [ ] Menús a evitar

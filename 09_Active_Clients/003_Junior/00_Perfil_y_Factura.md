@@ -1,59 +1,73 @@
 # 🧑 Cliente 003 — Junior
 
-**Estado:** ACTIVO (v1 Meal Prep Model)
-**Servicio:** Meal Prep Quincenal (Freezer Meals)
+**Estado:** ACTIVO (v2 — Suscripción Mensual)
+**Hogar:** 1 persona
 
 ---
 
-## Perfil
+## Planes Disponibles (por persona)
 
-- **Hogar:** 1 persona
-- **Porciones/quincena:** 10
-- **Porciones/mes:** 20 (2 ciclos)
-- **Preferencias por confirmar:**
-  - [ ] Opción "Atleta" (+50g proteína → +8.000 Gs./porción)
-  - [ ] Carbos complejos (avena, arroz integral, batata) sí/no
-  - [ ] Suplementación en salsas (menos azúcar, menos sal)
-  - [ ] Menús a evitar
-
----
-
-## Factura Quincenal
-
-### Opción Estándar
-
-| Concepto | Cantidad | Precio unitario | Subtotal |
-|---|---|---|---|
-| Porción meal prep | 10 | 63.600 | **636.000** |
-| **TOTAL QUINCENAL** | | | **636.000 Gs.** |
-| **MENSUAL (2 ciclos)** | | | **1.272.000 Gs.** |
-
-### Opción "Atleta" (upgrade +50g proteína magra/porción)
-
-| Concepto | Cantidad | Precio unitario | Subtotal |
-|---|---|---|---|
-| Porción meal prep Atleta | 10 | 71.600 | **716.000** |
-| **TOTAL QUINCENAL** | | | **716.000 Gs.** |
-| **MENSUAL (2 ciclos)** | | | **1.432.000 Gs.** |
-
----
-
-## Desglose — A Dónde Va Cada Guaraní (opción estándar)
-
-| Componente | % | Gs. de los 636.000 |
+| Plan | Comidas/mes | Precio/mes |
 |---|---|---|
-| 🥩 Ingredientes premium | 53,7% | 341.532 |
-| 👨‍🍳 Chef (sueldo + comisión) | 22,4% | 142.464 |
-| 🛒 Comprador (sueldo + auto + comisión) | 15,2% | 96.672 |
-| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 25.440 |
-| 🏦 Reserva empresa | 4,7% | 29.892 |
-| **TOTAL** | **100%** | **636.000** |
+| Plan 20 "Weekend Chef" | 20 | **1.400.000** |
+| Plan 40 "Media Semana" | 40 | **2.600.000** |
+| **Plan 60 "Completo"** ⭐ | 60 | **3.600.000** |
+| Plan 90 "Total" | 90 | **5.000.000** |
+
+**Hogar de 1 persona:** 0% de descuento.
 
 ---
 
-## Logística
+## Opción "Atleta" (si aplica gym/fitness)
 
-- **Entrega:** quincenal, día 5 del ciclo
-- **Horario preferido:** a coordinar
-- **Forma de pago:** transferencia / efectivo / QR
-- **Cierre de pago:** dentro de 48 hrs de la entrega
+Cada comida con +50g de proteína magra.
+**Recargo:** +15% sobre el plan elegido.
+
+| Plan | Precio Base | Precio Atleta (+15%) |
+|---|---|---|
+| Plan 40 | 2.600.000 | **2.990.000** |
+| Plan 60 | 3.600.000 | **4.140.000** |
+| Plan 90 | 5.000.000 | **5.750.000** |
+
+---
+
+## Plan Sugerido
+
+Según objetivos:
+- **Si come en casa todo el día:** Plan 60 Completo (3.600.000)
+- **Si come fuera a veces:** Plan 40 Media Semana (2.600.000)
+- **Si entrena y necesita más proteína:** upgrade Atleta
+
+---
+
+## Desglose de Gs. 3.600.000 (Plan 60 sugerido)
+
+| Componente | % | Gs. |
+|---|---|---|
+| 🥩 Ingredientes premium | 51,9% | 1.868.400 |
+| 👨‍🍳 Chef (sueldo + comisión) | 21,8% | 784.800 |
+| 🛒 Comprador (sueldo + auto + comisión) | 14,3% | 514.800 |
+| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 144.000 |
+| 🏦 Reserva empresa | 8,0% | 288.000 |
+| **TOTAL** | **100%** | **3.600.000** |
+
+---
+
+## Add-Ons Disponibles
+
+| Add-on | Precio/mes |
+|---|---|
+| BARF Mascotas | 120.000 |
+| Caldo Huesos Premium | 100.000 |
+| Postres artesanales | 200.000 |
+| Desayuno upgrade | 400.000 |
+
+---
+
+## Preferencias por Confirmar
+
+- [ ] Plan elegido
+- [ ] Opción Atleta sí/no
+- [ ] Macros objetivo (proteína diaria g/kg)
+- [ ] Carbos complejos preferidos
+- [ ] Menús a evitar

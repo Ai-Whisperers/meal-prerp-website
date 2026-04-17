@@ -1,102 +1,107 @@
-# 🏠 Plan Meal Prep — Iván, Kiki y Ale (Casa Ancla)
+# 🏠 Plan Suscripción — Iván, Kiki y Ale (Casa Ancla)
 
-**Estado:** ACTIVO (v1 Meal Prep Model)
-**Servicio:** Meal Prep Quincenal + BARF + Caldo Huesos (Casa Ancla)
-
-> Este plan reemplaza al ciclo de compras originales de 2.585.000 Gs.
-> descrito en `03_Estimacion_Costos.md`, consolidándolo en un servicio de
-> **meal prep completo + subproductos incluidos**.
+**Estado:** ACTIVO (v2 — Suscripción Mensual con Descuento Hogar)
+**Hogar:** 3 personas
+**Rol estratégico:** Casa Ancla (primer cliente, prioridad máxima de entrega)
 
 ---
 
-## Perfil
+## Planes Disponibles
 
-- **Hogar:** 3 personas (Iván, Kiki, Ale)
-- **Porciones/quincena:** 30
-- **Porciones/mes:** 60 (2 ciclos)
-- **Rol estratégico:** **Casa Ancla** (43% del ciclo). Primer cliente prioritario.
-- **Filosofía alimentaria:** whole-animal, nose-to-tail, cero desperdicio,
-  trazabilidad total. Coincide con la filosofía de sourcing del negocio.
+Precios para **hogar de 3 personas** (incluye descuento -15%):
 
----
-
-## Factura Quincenal (Plan Casa Ancla)
-
-| Concepto | Cantidad | Precio unitario | Subtotal |
-|---|---|---|---|
-| Porción meal prep (freezer ready) | 30 | 63.600 | **1.908.000** |
-| BARF mascotas (incluido) | 3 kg | — | 0 |
-| Caldo huesos/médula (incluido) | 2 frascos | — | 0 |
-| **TOTAL QUINCENAL** | | | **1.908.000 Gs.** |
-| **MENSUAL (2 ciclos)** | | | **3.816.000 Gs.** |
-
-**Beneficios Casa Ancla (valor extra entregado):**
-- BARF: 6 kg/mes (valor retail ~Gs. 120.000)
-- Caldos: 4 frascos/mes (valor retail ~Gs. 120.000)
-- Prioridad entrega (primer hogar del día)
-- Total valor extra: **~Gs. 240.000/mes incluidos**
-
----
-
-## Desglose — A Dónde Va Cada Guaraní
-
-| Componente | % | Gs. de los 1.908.000 |
+| Plan | Comidas/mes (3 pers) | Precio mensual |
 |---|---|---|
-| 🥩 Ingredientes premium | 53,7% | 1.024.596 |
-| 👨‍🍳 Chef (sueldo + comisión) | 22,4% | 427.392 |
-| 🛒 Comprador (sueldo + auto + comisión) | 15,2% | 290.016 |
-| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 76.320 |
-| 🏦 Reserva empresa | 4,7% | 89.676 |
-| **TOTAL** | **100%** | **1.908.000** |
+| Plan 20 "Weekend Chef" (3 pers) | 60 | **3.570.000** |
+| Plan 40 "Media Semana" (3 pers) | 120 | **6.630.000** |
+| **Plan 60 "Completo"** ⭐ (3 pers) | 180 | **9.180.000** |
+| Plan 90 "Total" (3 pers) | 270 | **12.750.000** |
+
+---
+
+## Plan Recomendado (Casa Ancla)
+
+**Plan 60 Completo** — Gs. 9.180.000/mes.
+- 180 comidas/mes para los 3 (60 comidas cada uno)
+- Cubre almuerzo + cena todos los días del mes.
+- Desayunos los deciden ellos (opcional add-on).
+
+### 🎁 Bonus Casa Ancla (incluidos sin cargo)
+
+Por ser hogar de 3+ personas en Plan 60 o superior:
+- **BARF Mascotas:** 6 kg/mes (valor retail ~120.000 Gs.)
+- **Caldo de Huesos Premium:** 4 frascos/mes (valor retail ~100.000 Gs.)
+- **Entrega prioritaria:** primer hogar del día cada ciclo
+- **Valor extra incluido: ~Gs. 220.000/mes**
+
+---
+
+## Desglose de Gs. 9.180.000 (Plan 60, 3 pers, Casa Ancla)
+
+| Componente | % | Gs. |
+|---|---|---|
+| 🥩 Ingredientes premium | 51,9% | 4.764.420 |
+| 👨‍🍳 Chef (sueldo + comisión) | 21,8% | 2.001.240 |
+| 🛒 Comprador (sueldo + auto + comisión) | 14,3% | 1.312.740 |
+| 🏠 Gas/luz/packaging/amortiz. | 4,0% | 367.200 |
+| 🏦 Reserva empresa | 8,0% | 734.400 |
+| **TOTAL** | **100%** | **9.180.000** |
+
+---
+
+## Add-Ons Disponibles (más allá de los incluidos)
+
+| Add-on | Precio/mes |
+|---|---|
+| Manteca/Tallow rendereado (1 kg) | 60.000 |
+| Fermentados (chucrut, pickles — 2 frascos) | 80.000 |
+| Postres artesanales (4 un) | 200.000 |
+| Desayuno upgrade (3 pers, overnight oats + smoothies) | 1.000.000 |
 
 ---
 
 ## Comparativa con Modelo Anterior
 
-| Métrica | Modelo anterior (compras+prep) | Modelo Meal Prep v1 |
+| Métrica | v1 (por porción) | v2 (suscripción) |
 |---|---|---|
-| Costo por ciclo (4-6 semanas) | Gs. 2.585.000 | Gs. 1.908.000 × 2 = 3.816.000 (mes) |
-| Ajustado a ciclo mensual | ~Gs. 2.585.000 / 1,25 meses = Gs. 2.068.000 | Gs. 3.816.000 |
-| Trabajo de cocción por cliente | Cliente cocina | **Incluido** |
-| Porciones listas/mes | 0 (el cliente cocina) | **60** |
-| BARF | Incluido (~Gs. 60k valor) | Incluido (~Gs. 120k valor) |
-| Caldos | — | **Incluido (4 frascos)** |
+| Comidas cubiertas/mes | 60 | **180** (3×) |
+| Precio/mes | 3.816.000 | 9.180.000 |
+| Precio/comida efectivo | 63.600 | **51.000** |
+| BARF incluido | Sí | Sí |
+| Caldos incluidos | Sí (4) | Sí (4) |
+| Cocinar en casa | Sí (mucho) | **No (casi nada)** |
 
-**Interpretación:** paga ~Gs. 1,75M/mes más, pero obtiene 60 comidas hechas (que
-antes cocinaba en ~60 hrs) + caldos premium. Si valúa su hora en Gs. 30.000,
-ahorra Gs. 1,8M en tiempo + obtiene consistencia de calidad.
-
----
-
-## Menús del Ciclo (ejemplo rotativo)
-
-Cada ciclo se coordina con Iván la distribución según stock de animal:
-
-| Menú | Porciones típicas / ciclo |
-|---|---|
-| Guiso de cerdo con mandioca | 8-10 |
-| Pollo al horno con vegetales asados | 6-8 |
-| Estofado de cordero con arroz | 4-6 |
-| Albóndigas de cerdo en salsa | 4 |
-| Pechuga pollo rellena | 4 |
-| Total | ~30 |
-
-Cualquier menú puede sustituirse (chef's choice o preferencia explícita).
+**Valor agregado v2:** 120 comidas adicionales a precio/comida 20% menor, sin
+trabajo de cocina. El upgrade sube Gs. 5.4M/mes pero libera ~90 hrs/mes de cocina.
 
 ---
 
-## Logística
+## Menú Rotativo (Plan 60, 180 comidas/mes)
 
-- **Entrega:** quincenal, día 5 del ciclo, **primer hogar del día** (Casa Ancla)
-- **Horario preferido:** a coordinar
-- **Forma de pago:** transferencia al cierre del día de entrega
-- **Adelanto opcional:** 50% para cubrir compras del ciclo
+Mix por ciclo quincenal (90 comidas / ciclo):
+
+| Menú | Porciones/ciclo | Proteína |
+|---|---|---|
+| Guiso de cerdo con mandioca | 18 | Cerdo |
+| Pollo al horno con vegetales asados | 18 | Pollo |
+| Estofado de cordero con arroz | 12 | Cordero |
+| Albóndigas de cerdo en salsa tomate | 10 | Cerdo molido |
+| Pechuga pollo grillada + vegetales | 10 | Pollo |
+| Costillitas barbacoa | 8 | Cerdo |
+| Arroz con pollo tradicional | 8 | Pollo |
+| Guiso lento cordero | 6 | Cordero |
+| **Total** | **90** | |
+
+Se repite en segundo ciclo del mes. Rotación de recetas cada 2 meses para evitar fatiga.
 
 ---
 
-## Próximo Paso
+## Preferencias por Confirmar con Iván
 
-- [ ] Consolidar lista de menús preferidos (Iván aporta recetas base)
-- [ ] Confirmar preferencias de Kiki y Ale
-- [ ] Cerrar planilla de alergias/intolerancias del hogar
-- [ ] Definir si Ale come lo mismo que los adultos o versión "kids"
+- [ ] Plan elegido (60 o 90)
+- [ ] Ale come lo mismo que los adultos o versión kids (menos picante, porciones chicas)
+- [ ] Alergias / intolerancias de los 3
+- [ ] Desayuno add-on sí/no
+- [ ] Lista de menús favoritos (priorizar)
+- [ ] Lista de menús a evitar
+- [ ] Integración con filosofía whole-animal (recibir cortes crudos adicionales para uso propio sí/no)
