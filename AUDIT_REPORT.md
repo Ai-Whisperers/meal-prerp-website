@@ -1,8 +1,38 @@
 # Informe de Auditoría del Proyecto Grocery
 
-**Fecha:** 15 Enero 2026
-**Total de Archivos:** 50+ archivos .md
-**Estado General:** ✅ COMPLETADO
+**Fecha:** 15 Enero 2026 (auditoría original) · **Adenda:** 23 abril 2026
+**Total de Archivos:** 70+ archivos .md
+**Estado General:** ✅ COMPLETADO + ampliación modelo operador incubado
+
+---
+
+## 📌 Adenda — 23 abril 2026: Nuevo modelo operativo (HelloFresh Local)
+
+Se incorporó al repositorio un **pivote de modelo operativo**: el core
+del negocio se opera a través de un **cocinero independiente incubado**
+(Edu Cano Galeano como primer operador), con Iván en rol de **cliente
+ancla + mentor**, no de empleador. El modelo v1 "Chef Empleado" queda
+como referencia.
+
+### Carpetas nuevas
+
+| Ruta | Contenido |
+|---|---|
+| `04_Business_Model/08_Programa_Operador_Incubado/` | Modelo formal: propuesta de valor, ciclo semanal, catálogo, precios, economía unitaria, programa de incubación 12 meses. |
+| `06_Marketing_and_Brand/03_Campana_HelloFresh_Local/` | One-pager cliente, plantillas de WhatsApp, plan de Instagram, FAQ, onboarding. |
+| `01_Admin_Hiring/01_Operaciones_Cocina/03_Candidatos/Edu_Cano_Galeano/` | Cuestionario, evaluación, análisis de menú, plan de negocio, acuerdo cliente-ancla, mensajes de WhatsApp follow-up. |
+
+### Archivos actualizados
+
+- `04_Business_Model/00_Master_Plan.md` → sección 1 (Core Business) agregó v1/v2.
+
+### Documento de origen del pivote
+
+- [`01_Admin_Hiring/01_Operaciones_Cocina/03_Candidatos/Edu_Cano_Galeano/PIVOT_Reencuadre_Relacion.md`](01_Admin_Hiring/01_Operaciones_Cocina/03_Candidatos/Edu_Cano_Galeano/PIVOT_Reencuadre_Relacion.md)
+
+---
+
+## Auditoría original (15 Enero 2026)
 
 ---
 

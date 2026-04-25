@@ -1,7 +1,20 @@
 # 🗺️ Plan Maestro de Negocio
 
 **Visión:** Convertir el caos del mercado y la cocina en sistemas rentables y comida deliciosa.
-**Ubicación Estratégica:** San Lorenzo ("Ciudad Universitaria").
+**Ubicación Estratégica:** San Lorenzo / Asunción / Lambaré.
+
+> ⚡ **Actualización 23 abril 2026 — Nuevo modelo operativo vigente**
+>
+> La primera implementación del core pasa a ser el **Programa Operador
+> Incubado (HelloFresh Local)**: un cocinero independiente opera el
+> servicio como dueño de su propio negocio y nosotros actuamos como
+> **cliente ancla + mentor**, no como empleador.
+>
+> Ver: [`08_Programa_Operador_Incubado/`](08_Programa_Operador_Incubado/) · Operador actual: Edu Cano Galeano.
+>
+> El modelo "Chef Empleado" (`07_Meal_Prep_Pricing_Model/`) queda como
+> referencia para escenarios futuros en los que el negocio crezca y
+> contratemos personal directo.
 
 ---
 
@@ -9,12 +22,31 @@
 
 _La base que paga las cuentas._
 
+### 1.a Implementación vigente — Programa Operador Incubado
+
+- **Modelo:** Un operador independiente (actualmente Edu) corre el servicio estilo HelloFresh freezer-stock; nosotros somos cliente ancla + mentor.
+- **Unidad económica:** Porción de 400 g a Gs. 24-28k. Ciclo semanal.
+- **Documentación:**
+  - [`08_Programa_Operador_Incubado/00_README.md`](08_Programa_Operador_Incubado/00_README.md)
+  - [Ciclo operativo semanal](08_Programa_Operador_Incubado/02_Ciclo_Operativo_Semanal.md)
+  - [Catálogo 25 platos + rotación](08_Programa_Operador_Incubado/03_Catalogo_Menu_y_Rotacion.md)
+  - [Estructura de precios](08_Programa_Operador_Incubado/04_Estructura_Precios.md)
+  - [Economía unitaria](08_Programa_Operador_Incubado/05_Economia_Unitaria.md)
+  - [Programa de incubación 12 meses](08_Programa_Operador_Incubado/06_Programa_Incubacion.md)
+- **Materiales de marketing / onboarding:** [`06_Marketing_and_Brand/03_Campana_HelloFresh_Local/`](../06_Marketing_and_Brand/03_Campana_HelloFresh_Local/)
+
+### 1.b Modelo de referencia original — Chef Empleado
+
+Queda documentado por si, a futuro, se decide contratar chef propio y
+escalar con 20 familias fijas:
+
 - **Modelo:** Gestión de compras y cocina para 20 familias fijas.
 - **Estrategia:** Matriz de Servicio (Input Exacto/Abstracto vs Output Raw/Prep/Cooked).
 - **Documentación Detallada:**
   - [Matriz de Servicio](01_Core_Business/01_Matriz_de_Servicio.md)
   - [Rentabilidad del Núcleo](01_Core_Business/02_Rentabilidad_Nucleo.md)
-  - [Análisis Geográfico: San Lorenzo](01_Core_Business/00_Analisis_San_Lorenzo.md) **(Nuevo)**
+  - [Análisis Geográfico: San Lorenzo](01_Core_Business/00_Analisis_San_Lorenzo.md)
+  - [Modelo de precios Meal Prep v3](07_Meal_Prep_Pricing_Model/11_Precios_Accesibles_v3.md)
 
 ---
 
