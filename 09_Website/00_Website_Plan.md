@@ -1,19 +1,21 @@
 # Sitio Web "De Abasto a Casa" - Plan Operativo
 
 > Fecha: abril 2026
-> Repo tecnico: `ai-whisperers/paragu-ai-builder` (rama `claude/grocery-website-plan-MerSn`)
-> Slug publico: `/de-abasto-a-casa` en paragu-ai.com
+> **Repo del sitio (codigo):** [Ai-Whisperers/de-abasto-a-casa](https://github.com/Ai-Whisperers/de-abasto-a-casa) (Next.js, repo dedicado)
+> Copia local recomendada (al lado de `grocery-repo/`): `grocery/de-abasto-a-casa`
+> Contexto previo (page builder compartido): `ai-whisperers/paragu-ai-builder`, rama `claude/grocery-website-plan-MerSn`
+> Slug publico: `/de-abasto-a-casa` en paragu-ai.com (cuando el deploy siga ese hosting)
 > Tipo nuevo: `meal_prep` (agregado al page-builder para este cliente y futuros similares)
 
 ---
 
 ## Contexto
 
-"Grocery" paso de documentacion interna a un sitio publico que permite a clientes nuevos entender la propuesta y escribir directo por WhatsApp. El sitio vive dentro de paragu-ai-builder (motor Next.js + Supabase que ya aloja a Salon Maria, GymFit, Spa Serenidad, etc.). No duplicamos infraestructura ni pagamos hosting adicional: aprovechamos el builder compartido.
+"Grocery" paso de documentacion interna a un sitio publico que permite a clientes nuevos entender la propuesta y escribir directo por WhatsApp. El codigo del sitio esta en el repo **de-abasto-a-casa** (Next.js). La primera iteracion del MVP se documento tambien en el page-builder compartido **paragu-ai-builder** (motor que aloja Salon Maria, GymFit, Spa Serenidad, etc.); el repo dedicado es ahora la fuente principal para desarrollo y deploy del sitio De Abasto a Casa.
 
 ## Que existe ya (Fase 1 - MVP)
 
-Todo el MVP esta implementado y pasa validacion de schemas + tokens + typecheck + build. La pagina esta viva en dev contra localhost:3000/de-abasto-a-casa.
+Todo el MVP esta implementado; en el repo dedicado **de-abasto-a-casa** corresponde `npm install`, `npm run build` y `npm run dev` (raiz del sitio en `http://localhost:3000`). En **paragu-ai-builder** la misma experiencia se validaba con schemas/tokens/typecheck y `localhost:3000/de-abasto-a-casa` si aun usas esa integracion.
 
 ### Secciones publicadas
 
@@ -89,7 +91,17 @@ CTA final: `wa.me/{{whatsapp}}?text=<numeros personalizados del usuario>` - cump
 6. **Email de contacto real** (hoy `hola@deabastoacasa.com.py` como placeholder).
 7. **Cobertura especifica** si querria comunicar barrios prioritarios.
 
-### Verificacion local
+### Verificacion local (repo dedicado de-abasto-a-casa)
+
+```bash
+cd de-abasto-a-casa
+npm install
+npm run lint
+npm run build
+npm run dev                   # http://localhost:3000
+```
+
+### Verificacion local (legacy paragu-ai-builder, si aun usas esa ruta)
 
 ```bash
 cd paragu-ai-builder/web
