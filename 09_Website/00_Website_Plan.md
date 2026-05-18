@@ -1,8 +1,8 @@
 # Sitio Web "De Abasto a Casa" - Plan Operativo
 
 > Fecha: abril 2026
-> **Repo del sitio (codigo):** [Ai-Whisperers/de-abasto-a-casa](https://github.com/Ai-Whisperers/de-abasto-a-casa) (Next.js, repo dedicado)
-> Copia local recomendada (al lado de `grocery-repo/`): `grocery/de-abasto-a-casa`
+> **Repo del sitio (codigo):** este mismo repo — Next.js en la raiz (`app/`, `npm run dev`). Deploy: `prep.paragu-ai.com`.
+> **Repo hermano (grocery completo):** [Ai-Whisperers/de-abasto-a-casa](https://github.com/Ai-Whisperers/de-abasto-a-casa)
 > Contexto previo (page builder compartido): `ai-whisperers/paragu-ai-builder`, rama `claude/grocery-website-plan-MerSn`
 > Slug publico: `/de-abasto-a-casa` en paragu-ai.com (cuando el deploy siga ese hosting)
 > Tipo nuevo: `meal_prep` (agregado al page-builder para este cliente y futuros similares)
@@ -11,11 +11,11 @@
 
 ## Contexto
 
-"Grocery" paso de documentacion interna a un sitio publico que permite a clientes nuevos entender la propuesta y escribir directo por WhatsApp. El codigo del sitio esta en el repo **de-abasto-a-casa** (Next.js). La primera iteracion del MVP se documento tambien en el page-builder compartido **paragu-ai-builder** (motor que aloja Salon Maria, GymFit, Spa Serenidad, etc.); el repo dedicado es ahora la fuente principal para desarrollo y deploy del sitio De Abasto a Casa.
+"Grocery" paso de documentacion interna a un sitio publico que permite a clientes nuevos entender la propuesta y escribir directo por WhatsApp. El codigo del landing de meal prep (Prep / De Abasto a Casa) vive en la **raiz de este repo** (Next.js). El sitio grocery de mas secciones sigue en **de-abasto-a-casa**. La primera iteracion del MVP se documento tambien en **paragu-ai-builder** (page-builder compartido).
 
 ## Que existe ya (Fase 1 - MVP)
 
-Todo el MVP esta implementado; en el repo dedicado **de-abasto-a-casa** corresponde `npm install`, `npm run build` y `npm run dev` (raiz del sitio en `http://localhost:3000`). En **paragu-ai-builder** la misma experiencia se validaba con schemas/tokens/typecheck y `localhost:3000/de-abasto-a-casa` si aun usas esa integracion.
+El MVP del landing meal prep esta en la raiz de este repo: `npm install`, `npm run build`, `npm run dev` → `http://localhost:3000`. Para el sitio grocery extendido, usar **de-abasto-a-casa**. En **paragu-ai-builder** la integracion legacy sigue en `localhost:3000/de-abasto-a-casa` si aplica.
 
 ### Secciones publicadas
 
@@ -91,14 +91,20 @@ CTA final: `wa.me/{{whatsapp}}?text=<numeros personalizados del usuario>` - cump
 6. **Email de contacto real** (hoy `hola@deabastoacasa.com.py` como placeholder).
 7. **Cobertura especifica** si querria comunicar barrios prioritarios.
 
-### Verificacion local (repo dedicado de-abasto-a-casa)
+### Verificacion local (sitio meal prep — raiz de este repo)
 
 ```bash
-cd de-abasto-a-casa
 npm install
 npm run lint
 npm run build
 npm run dev                   # http://localhost:3000
+```
+
+### Verificacion local (sitio grocery extendido — repo de-abasto-a-casa)
+
+```bash
+cd de-abasto-a-casa
+npm install && npm run build && npm run dev
 ```
 
 ### Verificacion local (legacy paragu-ai-builder, si aun usas esa ruta)
