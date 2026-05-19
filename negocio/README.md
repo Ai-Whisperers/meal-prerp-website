@@ -1,14 +1,13 @@
-# Negocio
+﻿# Negocio
 
-Plan maestro, programa del operador incubado, precios 2026, contrato y catálogo premium.
+Solo subcarpetas — sin archivos sueltos en esta raíz.
 
-| Archivo / carpeta | Contenido |
-|-------------------|-----------|
-| `plan-maestro.md` | Visión y plan general |
-| `programa-operador/` | Propuesta de valor, ciclo, menú, economía |
-| `precios/tiers-2026.md` | Tres tiers comerciales (2026) |
-| `contrato-servicios-pago.md` | Pilares del contrato |
-| `core/` | Matriz de servicios y rentabilidad núcleo |
-| `catalogo-premium/` | Insumos premium por categoría |
+| Carpeta | Contenido |
+|---------|-----------|
+| `plan/` | Plan maestro, contrato, ejemplo mensual |
+| `programa-operador/` | Propuesta, ciclo, catálogo, economía, incubación |
+| `precios/` | Tiers 2026, comparativa valor |
+| `core/` | Análisis, matriz de servicios, rentabilidad |
+| `catalogo-premium/` | Carnes, vegetales, frutas |
 
-Índice completo: [`docs/INDEX.md`](../docs/INDEX.md).
+Índice: [`docs/indice/INDEX.md`](../docs/indice/INDEX.md).

@@ -1,12 +1,10 @@
-# Operaciones
+﻿# Operaciones
 
-Ejecución semanal: cocina, compras, logística y empaque.
+| Carpeta | Contenido |
+|---------|-----------|
+| `ciclo/` | Ciclo semanal |
+| `cocina/` | Manuales y recetario |
+| `compras/` | Guía de compras e imágenes |
+| `logistica-empaque/` | Empaque, frío, entrega |
 
-| Carpeta / archivo | Contenido |
-|-------------------|-----------|
-| `ciclo-semanal.md` | Resumen del ciclo operativo |
-| `cocina/` | Manuales, recetario, equipamiento |
-| `compras/` | Guía de compras |
-| `logistica-empaque/` | Empaque, frío, entrega y regeneración |
-
-Índice: [`docs/INDEX.md`](../docs/INDEX.md).
+Índice: [`docs/indice/INDEX.md`](../docs/indice/INDEX.md).

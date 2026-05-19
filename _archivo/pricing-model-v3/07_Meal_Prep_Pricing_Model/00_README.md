@@ -32,7 +32,7 @@
 
 ### Mensajes listos para el cliente
 
-- **[marketing/Mensaje_Valor_Cliente_Template.md](../../marketing/Mensaje_Valor_Cliente_Template.md)** 💬 — Texto corto + largo para WhatsApp, por plan y hogar
+- **[marketing/ventas/mensaje-valor-cliente-template.md](../../marketing/ventas/mensaje-valor-cliente-template.md)** 💬 — Texto corto + largo para WhatsApp, por plan y hogar
 
 ### Cuestionarios de Contratación
 
@@ -136,10 +136,10 @@ Ver `03_Salarios_y_Comisiones.md` para estructura salarial actual y `10_Escalado
 
 ## 🔗 Referencias Cruzadas
 
-- Estructura de servicio original: `negocio/contrato-servicios-pago.md`
+- Estructura de servicio original: `negocio/plan/contrato-servicios-pago.md`
 - Precios mayoristas: `operaciones/compras/Referencia_Precios_Mayorista.md`
 - Compra de animales enteros: `operaciones/compras/Compra_Animales_Enteros.md`
-- Cadena de frío: `operaciones/logistica-empaque/02_Protocolo_Cadena_Frio.md`
+- Cadena de frío: `operaciones/logistica-empaque/frio/protocolo-cadena-frio.md`
 - Perfiles de cliente: `clientes/activos/`
 
 ---

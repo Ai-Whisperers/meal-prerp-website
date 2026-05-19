@@ -114,7 +114,7 @@ justifican el premium del servicio vs. supermercado.
 - Máx. 3 minutos desde puerta del cliente hasta su freezer.
 - Etiqueta obligatoria en cada bolsa: **nombre del plato + fecha de producción + fecha vence + instrucciones de regeneración**.
 
-Ver protocolo completo en `operaciones/logistica-empaque/02_Protocolo_Cadena_Frio.md`.
+Ver protocolo completo en `operaciones/logistica-empaque/frio/protocolo-cadena-frio.md`.
 
 ---
 

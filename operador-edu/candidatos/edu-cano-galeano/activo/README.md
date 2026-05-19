@@ -29,7 +29,7 @@ El modelo operativo vive en dos carpetas de primer nivel:
 
 - 🗺️ **Modelo formal:** [`negocio/programa-operador/`](../../../../negocio/programa-operador/)
   → Ciclo semanal, catálogo de 25 platos, estructura de precios, economía unitaria, programa de mentoría 12 meses.
-- 📣 **Marketing y onboarding:** [`marketing/03_Campana_HelloFresh_Local/`](../../../../marketing/03_Campana_HelloFresh_Local/)
+- 📣 **Marketing y onboarding:** [`marketing/campana-hellofresh-local/`](../../../../marketing/campana-hellofresh-local/)
   → Plantillas de WhatsApp, plan de Instagram, FAQ, guión de ventas, onboarding de cliente nuevo.
 
 La carpeta actual contiene la **versión personalizada con Edu**

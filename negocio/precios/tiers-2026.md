@@ -124,5 +124,5 @@ Detalle por plato: [`08_Programa_Operador_Incubado/04_Estructura_Precios.md`](08
 ## Referencias
 
 - Economía unitaria: [`08_Programa_Operador_Incubado/05_Economia_Unitaria.md`](08_Programa_Operador_Incubado/05_Economia_Unitaria.md)
-- Copy web: [`sitio-web/copy-espanol.md`](../sitio-web/copy-espanol.md)
+- Copy web: [`sitio-web/copy/copy-espanol.md`](../sitio-web/copy/copy-espanol.md)
 - Competencia: [`mercado/10_Analisis_Competencia_Delivery.md`](../mercado/10_Analisis_Competencia_Delivery.md)

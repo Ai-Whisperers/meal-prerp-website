@@ -1,0 +1,34 @@
+services:
+  web:
+    build:
+      context: ../web
+      dockerfile: Dockerfile
+    image: meal-prerp-website:prod
+    ports:
+      - target: 3010
+        published: 3010
+        mode: ingress
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_BASE_URL=https://prep.paragu-ai.com
+    restart: unless-stopped
+    networks:
+      - agent-net
+    deploy:
+      mode: replicated
+      replicas: 1
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.prep-http.rule=Host(`prep.paragu-ai.com`)"
+        - "traefik.http.routers.prep-http.entrypoints=web"
+        - "traefik.http.routers.prep-http.service=prep-service"
+        - "traefik.http.routers.prep.rule=Host(`prep.paragu-ai.com`)"
+        - "traefik.http.routers.prep.entrypoints=websecure"
+        - "traefik.http.routers.prep.tls=true"
+        - "traefik.http.routers.prep.tls.certresolver=letsencryptresolver"
+        - "traefik.http.routers.prep.service=prep-service"
+        - "traefik.http.services.prep-service.loadbalancer.server.port=3010"
+
+networks:
+  agent-net:
+    external: true
